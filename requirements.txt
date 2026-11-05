@@ -1,0 +1,15 @@
+# Probado con Python 3.12/3.13 y estas versiones (RTX 3090, CUDA). En GPU instala torch con CUDA:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch>=2.5
+transformers==5.22.1
+datasets==5.1.0
+accelerate==1.15.0
+scikit-learn==1.9.1
+scipy>=1.13
+pandas>=2.2
+numpy>=1.26
+sentencepiece==0.2.2
+rouge==1.0.1
+bert_score==0.3.13
+tqdm>=4.66
+pytest>=8

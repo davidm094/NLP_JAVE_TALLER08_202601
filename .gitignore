@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+# datos: no se redistribuyen (ver data/README.md)
+data/*.csv
+# checkpoints de entrenamiento
+results/_detector/
+results/_corrector/
+outputs/

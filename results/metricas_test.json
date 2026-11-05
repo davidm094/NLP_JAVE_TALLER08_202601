@@ -1,0 +1,120 @@
+{
+  "fuente": "notebooks/ejecucion_rtx3090.ipynb (corrida completa en RTX 3090, 14 min, transformers 5.22.1)",
+  "splits": {
+    "train": {
+      "textos": 1563,
+      "oraciones": 19691,
+      "pct_error": 55.7
+    },
+    "dev": {
+      "textos": 314,
+      "oraciones": 4246,
+      "pct_error": 55.7
+    },
+    "test": {
+      "textos": 312,
+      "oraciones": 3730,
+      "pct_error": 55.8
+    }
+  },
+  "pisos_test": {
+    "siempre_error_A": 0.5577,
+    "nunca_error_A": 0.4423,
+    "nunca_error_B": 0.4423,
+    "nunca_error_composite": 0.4423,
+    "ultima_oracion_B_todos": 0.3558,
+    "ultima_oracion_B_con_error": 0.6379,
+    "copiar_oracion": {
+      "rouge1": 0.5998,
+      "bertscore": 0.6732,
+      "aggregate": 0.6365
+    }
+  },
+  "detector": {
+    "epocas": [
+      {
+        "epoca": 1,
+        "loss_train": 0.2533,
+        "loss_dev": 0.351,
+        "precision": 0.5524,
+        "recall": 0.7829,
+        "f1": 0.6478
+      },
+      {
+        "epoca": 2,
+        "loss_train": 0.1293,
+        "loss_dev": 0.2041,
+        "precision": 0.5209,
+        "recall": 0.9257,
+        "f1": 0.6667
+      },
+      {
+        "epoca": 3,
+        "loss_train": 0.1606,
+        "loss_dev": 0.2959,
+        "precision": 0.5392,
+        "recall": 0.9029,
+        "f1": 0.6752
+      }
+    ],
+    "pasos": 3693,
+    "tiempo": "6:52",
+    "umbral_dev": 0.55
+  },
+  "detector_test": {
+    "flag_acc": 0.5417,
+    "sentence_acc": 0.5353,
+    "precision_texto": 0.558,
+    "recall_texto": 0.856,
+    "f1_texto": 0.676,
+    "localizacion_argmax_textos_con_error": 0.9713,
+    "matriz_confusion": {
+      "correcto_pred_correcto": 20,
+      "correcto_pred_error": 118,
+      "error_pred_correcto": 25,
+      "error_pred_error": 149
+    },
+    "oracion_exacta_en_errores_detectados": "147/149"
+  },
+  "corrector": {
+    "epocas_loss_dev": [
+      1.3519,
+      1.3111,
+      1.3086,
+      1.3139,
+      1.3123,
+      1.3177
+    ],
+    "pasos": 654,
+    "tiempo": "2:30",
+    "pares_train": 870,
+    "pares_dev": 175
+  },
+  "corrector_oracion_real_test": {
+    "rouge1": 0.5666,
+    "bertscore": 0.639,
+    "aggregate": 0.6028,
+    "correcciones_identicas": 0.0
+  },
+  "pipeline_test": {
+    "flag_acc": 0.5417,
+    "sentence_acc": 0.5353,
+    "rouge1": 0.5619,
+    "bertscore": 0.6377,
+    "aggregate": 0.5998,
+    "pares_de_correccion": 149,
+    "composite": 0.3506
+  },
+  "fuga_lookup_sin_modelo": {
+    "split_por_text_id": {
+      "A": 0.918,
+      "B": 0.842,
+      "correcciones_exactas": 0.258
+    },
+    "split_por_grupo": {
+      "A": 0.557,
+      "B": 0.349,
+      "correcciones_exactas": 0.0
+    }
+  }
+}

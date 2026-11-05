@@ -1,0 +1,5 @@
+Wed Nov  4 16:55:18 -05 2026
+[NbConvertApp] Converting notebook taller_mediqa_corr_corregido.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 426590 bytes to taller_mediqa_corr_ejecutado.ipynb
+EXIT=0 Wed Nov  4 17:09:33 -05 2026

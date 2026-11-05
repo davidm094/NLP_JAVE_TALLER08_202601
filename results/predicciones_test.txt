@@ -1,0 +1,312 @@
+ms-train-13 1 5 Further evaluation reveals Streptococcus pneumoniae as the causal pathogen.
+ms-train-20 1 7 Patient's symptoms are the result of infection with Streptococcus pneumoniae.
+ms-train-21 1 6 Patient is diagnosed with a Streptococcus pneumoniae infection based on gram stain of the discharge being negative for bacteria but showing many neutrophils.
+ms-train-39 1 15 Diagnosis caused by Streptococcus pneumoniae.
+ms-train-40 1 11 Suspected cause is bronchoscopy.
+ms-train-49 1 6 Suspected of infection with Streptococcus pneumoniae.
+ms-train-50 1 7 Suspected of infection with Streptococcus pneumoniae.
+ms-train-51 1 10 Escherichia coli is the organism being studied.
+ms-train-52 0 -1 NA
+ms-train-53 1 0 A 66-year-old woman with suspected hepatitis B infection comes to the emergency department because of fever and difficulty swallowing for 5 hours.
+ms-train-54 1 7 The causal organism is Streptococcus pneumoniae type b.
+ms-train-64 1 0 A 56-year-old woman with suspected a suspected Staphylococcus aureus infection comes to the emergency department because of worsening pain and swelling in her right knee for 3 days.
+ms-train-65 1 17 Patient is infected with Streptococcus pneumoniae.
+ms-train-70 1 8 The patient is infected by the tetanus virus.
+ms-train-71 1 0 A previously healthy 25-year-old man comes to the physician with suspected Clostridium difficile infection because of a 4-day history of fever, joint and body pain, diffuse headache, and pain behind the eyes.
+ms-train-92 1 11 Escherichia coli is the causal organism.
+ms-train-103 1 4 Pathology reports show infection with Ebola virus.
+ms-train-104 1 3 Pathology reports show infection with rheumatoid arthritis.
+ms-train-105 1 6 Based on the following finding, patient is at greatest risk of infection with Streptococcus pneumoniae.
+ms-train-106 1 7 Patient is at greatest risk of infection with Streptococcus pneumoniae.
+ms-train-131 1 8 Patient's labs are positive for human papillomavirus.
+ms-train-141 1 10 Patient was diagnosed with radial tenosynovitis.
+ms-train-142 1 5 Based on exam, patient was diagnosed with radial tenosynovitis.
+ms-train-145 1 4 Patient was diagnosed with rheumatic pain syndrome.
+ms-train-146 1 3 Patient was diagnosed with fibromyalgia when a complete blood count and erythrocyte sedimentation rate were within the reference ranges.
+ms-train-175 1 5 6.3 g/dL. Patient was diagnosed with IgM monoclonal gammopathy of undetermined significance (MGUS).
+ms-train-176 1 4 Patient was diagnosed with lymphoblastic leukemia after serum protein electrophoresis (SPEP) revealed a sharp, narrow spike of monoclonal IgM; serum IgM concentration is 6.3 g/dL.
+ms-train-177 1 13 Suspected of Pseudodementia.
+ms-train-178 1 15 Suspected of narcolepsy.
+ms-train-184 1 11 Suspected of glaucoma.
+ms-train-185 1 10 Suspected of glaucoma.
+ms-train-188 1 30 Patient was diagnosed with lymphoblastic leukocytoma.
+ms-train-189 1 14 Based on the following findings, patient was diagnosed with an adenocarcinoma.
+ms-train-194 1 2 Patient was diagnosed with dermatitis herpetiformis based on a skin biopsy of the rash showing intraepidermal accumulation of edematous fluid and widening of intercellular spaces between keratinocytes.
+ms-train-195 1 3 Patient was diagnosed with psoriasis.
+ms-train-211 1 9 Patient presentation may indicate thrombosis.
+ms-train-212 1 12 Patient presentation may indicate a pleural hematoma.
+ms-train-230 1 7 Suspected if schizoid personality disorder.
+ms-train-231 1 3 Patient is suspected to have hearing loss.
+ms-train-234 1 11 Patient is pregnant.
+ms-train-239 1 6 Suspected of symphony-induced hearing loss.
+ms-train-240 1 10 Diagnosis is aortic stenosis.
+ms-train-256 1 5 Patient was diagnosed with pulmonary fibrosis.
+ms-train-257 1 2 Patient was diagnosed with emphysema based on the following findings.
+ms-train-272 1 22 Diagnosis is systemic adenocarcinoma.
+ms-train-273 1 8 Suspected of adenocarcinoma.
+ms-train-308 0 -1 NA
+ms-train-309 1 7 Patient was diagnosed with lymphoblastic leukocytosis.
+ms-train-310 1 7 Patient was diagnosed with lymphoblastic leukocytosis.
+ms-train-311 1 5 Based on exam, patient was diagnosed with lymphoblastic leukocytosis.
+ms-train-320 1 6 A dislocated thumb is suspected when the child has decreased sensation along his thumb and is unable to make the "OK" sign with his thumb and index finger.
+ms-train-321 1 7 The patient likely has a distal humerus fracture.
+ms-train-332 1 9 Assessment and symptoms are consistent with acute lymphoblastic leukemia.
+ms-train-333 1 11 Assessment and symptoms are consistent with chronic lymphoblastic leukemia.
+ms-train-334 1 4 Patient is diagnosed with neoplasmic lateral sclerosis.
+ms-train-335 1 3 Patient is diagnosed with multiple sclerosis after the results reveal an expansion of 250 repeats of CGG.
+ms-train-354 1 21 Patient was diagnosed with prostatic hyperplasia.
+ms-train-355 1 14 Based on the following findings, patient was diagnosed with renal cell carcinoma.
+ms-train-356 1 6 Based on the exam, the patient was diagnosed with psoriasis.
+ms-train-357 1 8 Patient was diagnosed with psoriasis.
+ms-train-369 1 12 Patient is diagnosed with uterine hypertension.
+ms-train-370 0 -1 NA
+ms-train-378 1 9 Based on exam, patient was diagnosed with genital herpes.
+ms-train-379 1 11 Patient was diagnosed with a labia majora.
+ms-train-386 1 12 Suspected of Parkinson’s disease.
+ms-train-387 1 13 Diagnosis is Alzheimer's disease.
+ms-train-400 1 13 Diagnosis is erythema nodosa.
+ms-train-401 1 5 Suspected of adenocarcinoma.
+ms-train-410 1 7 Patient was diagnosed with rheumatoid arthritis after physical examination showed firm nodules on the distal interphalangeal joints of the index, ring, and little fingers of both hands.
+ms-train-411 1 8 Patient was diagnosed with a sprain in the distal interphalangeal joint of the index, ring, and little fingers of both hands.
+ms-train-422 1 12 Suspected of vertebral artery stenosis.
+ms-train-423 1 14 Suspected of rheumatoid arthritis.
+ms-train-445 1 13 Prostate cancer is suspected.
+ms-train-446 1 19 Diagnosis is Colitis.
+ms-train-452 0 -1 NA
+ms-train-453 1 11 Her body image focus raises concern for bulimia nervosa.
+ms-train-461 1 0 A 12-year-old boy suspected of nonbullous impetigo is brought to the physician because of fever, malaise, and a painful, itchy rash on the right shoulder for 2 weeks.
+ms-train-462 1 8 Patient is diagnosed with atopic dermatitis.
+ms-train-476 0 -1 NA
+ms-train-477 1 10 Based on exam, patient was diagnosed with a venous thrombosis.
+ms-train-478 1 14 Patient was diagnosed with rheumatoid arthritis.
+ms-train-480 0 -1 NA
+ms-train-481 0 -1 NA
+ms-train-505 1 3 Suspected of hemolytic anemia.
+ms-train-506 1 18 Diagnosis is fatty liver discoloration.
+ms-train-513 1 11 Suspected of amyotrophic lateral sclerosis.
+ms-train-514 1 13 Suspected of post-traumatic stress disorder.
+ms-train-527 1 8 Patient was diagnosed with psoriasis.
+ms-train-528 1 6 Based on exam, the patient was diagnosed with herpes simplex.
+ms-train-529 0 -1 NA
+ms-train-530 1 5 Patient was diagnosed with a rash on her trunk that started 6 hours ago and subsequently spread to her extremities.
+ms-train-545 1 8 Based on exam, patient was diagnosed with metatarsal plantar fasciitis.
+ms-train-546 1 12 Patient was diagnosed with a metatarsal sprain.
+ms-train-552 1 9 Based on the following exam, patient was diagnosed with Cervical Cervical Dystrophy.
+ms-train-553 1 11 Patient was diagnosed with lateral sclerosis.
+ms-train-589 1 7 Patient is diagnosed with placenta deficiency.
+ms-train-590 1 7 Fetal heart rate tracing at this time is shown in Figure A. Patient was experiencing normal labor.
+ms-train-598 1 9 Suspected of chorioamnionitis.
+ms-train-599 1 10 Suspected of placenta deficiency.
+ms-train-670 1 7 Patient was diagnosed with obsessive-compulsive personality disorder.
+ms-train-675 1 5 Patient was diagnosed with vasodilation.
+ms-train-682 1 9 Patient was diagnosed with cervix adenocarcinoma.
+ms-train-683 1 7 Based on exam, patient was diagnosed with a vasculitis infection.
+ms-train-695 0 -1 NA
+ms-train-696 0 -1 NA
+ms-train-704 1 9 Based on the following findings, patient was diagnosed with thrombosis.
+ms-train-705 1 35 Patient was diagnosed with lymphoblastic leukocytosis.
+ms-train-724 1 10 Presentation concerning for Parkinson's disease.
+ms-train-725 1 11 Presentation concerning for Parkinson's disease.
+ms-train-732 0 -1 NA
+ms-train-733 0 -1 NA
+ms-train-734 1 12 Patient was reassured and advised to follow-up in two weeks.
+ms-train-743 1 2 An erection sex test was performed to further evaluate.
+ms-train-768 1 4 Cold compresses were applied to extremities.
+ms-train-769 0 -1 NA
+ms-train-772 1 9 A CT scan of the head without contrast shows a high-density, 15-mm crescentic collection across the right hemispheric convexity.
+ms-train-773 1 16 A CT scan of the head without contrast shows a high-density, 15-mm crescentic collection across the right hemispheric convexity.
+ms-train-788 1 14 An MRI of the femoral metaphysis was scheduled for the patient.
+ms-train-789 1 13 Bone biopsy of the right thigh was performed.
+ms-train-797 1 10 A CT scan of the abdomen with contrast is ordered.
+ms-train-798 0 -1 NA
+ms-train-816 1 10 Administered metronidazole is administered.
+ms-train-817 0 -1 NA
+ms-train-840 1 20 Ankle jerk is 1+ bilaterally.
+ms-train-841 1 14 Metformin therapy is required.
+ms-train-851 0 -1 NA
+ms-train-852 1 13 Administered intravenous acetaminophen.
+ms-train-857 1 16 In addition to fluid resuscitation, a computed tomography was completed.
+ms-train-858 0 -1 NA
+ms-train-859 1 28 Platelets are low, immunoglobulin therapy recommended.
+ms-train-861 1 32 Patient is switched from unfractioned heparin to metronidazole therapy.
+ms-train-908 1 11 An ECG showed left axis deviation, a Q wave in lead III, a constant PR interval of 0.15 seconds with every third P wave that was nonconducted, and a QRS interval of .09 seconds.
+ms-train-909 1 12 Administered ibuprofen was recommended for the patient.
+ms-train-919 1 15 CT scan of the abdomen and pelvis with contrast is performed.
+ms-train-920 1 11 Intravenous ceftriaxone is administered.
+ms-train-925 1 11 Propranolol therapy is started.
+ms-train-939 1 20 Urine pregnancy test was obtained.
+ms-train-940 1 9 After reviewing initial labs, intravenous ceftriaxone was prescribed.
+ms-train-949 1 4 Inhalated bronchodilators and topical analgesia therapy were prescribed to the patient.
+ms-train-952 0 -1 NA
+ms-train-953 0 -1 NA
+ms-train-962 1 9 Arrange for boy to be discharged from the hospital.
+ms-train-963 1 10 An MRI of the arm and chest shows a nondisplaced spiral fracture of the left proximal humeral shaft and a fracture with callus formation of the left 8th rib.
+ms-train-985 1 20 Recommended to create food diary and outpatient follow-up.
+ms-train-989 0 -1 NA
+ms-train-990 1 8 A CT scan of the knee is ordered.
+ms-train-1001 1 13 Vitamin K therapy is required.
+ms-train-1002 0 -1 NA
+ms-train-1009 1 11 Abdominal ultrasound is scheduled.
+ms-train-1010 0 -1 NA
+ms-train-1011 0 -1 NA
+ms-train-1012 1 9 The patient's current medication will be discontinued.
+ms-train-1036 1 9 The patient is advised to avoid caffeine in the evening.
+ms-train-1037 0 -1 NA
+ms-train-1045 1 10 Therapy with a metformin is initiated for his erectile dysfunction.
+ms-train-1046 1 9 Therapy with a metformin is initiated for his erectile dysfunction.
+ms-train-1055 0 -1 NA
+ms-train-1056 1 4 Fluorescent treponemal antibody absorption test was performed.
+ms-train-1060 1 7 After examining the patient, topical amoxicillin was prescribed.
+ms-train-1061 1 10 Reassurance was provided to the patient.
+ms-train-1064 1 7 Focused assessment with ultrasound of the abdomen is performed.
+ms-train-1065 0 -1 NA
+ms-train-1072 1 3 Patient is scheduled to have a repeat Pap smear because her reflex HPV testing was positive.
+ms-train-1073 1 4 Patient is scheduled to have a colonoscopy.
+ms-train-1096 1 10 Based on the following results, the plan will be to give hepatitis B vaccine and hepatitis B Ig to the newborn.
+ms-train-1097 1 13 At this time, the plan will be to give hepatitis A vaccine and hepatitis B Ig to the newborn.
+ms-train-1132 1 7 Chloroquine was administered.
+ms-train-1133 1 8 Prothrombin was administered.
+ms-train-1144 1 17 Patient is precribed ceftriaxone after blood culture samples are obtained.
+ms-train-1145 1 18 Patient is prescribed ceftriaxone.
+ms-train-1156 1 14 The patient's parents were contacted to determine an outcome to the situation, however, because the patient insists on undergoing the procedure.
+ms-train-1157 0 -1 NA
+ms-train-1165 1 11 An ultrasound of the abdomen and pelvis is ordered.
+ms-train-1166 1 32 Urine urinalysis is ordered.
+ms-train-1175 1 9 Finger tip was wrapped in a sealed plastic bag placed on ice prior to transporting this patient to the emergency department.
+ms-train-1176 1 6 Finger tip was wrapped in gauze damp with saline in a sealed plastic bag placed on ice water prior to transporting this patient to the emergency department.
+ms-train-1177 1 4 Advised to stop simvastatin and start lisinopril.
+ms-train-1178 1 7 Advised to stop simvastatin and start albuterol.
+ms-train-1181 1 10 An MRI of the lumbar spine shows bone destruction, sequestrum formation, and periosteal reactions along the second and third lumbar vertebrae.
+ms-train-1182 1 31 An MRI of the lumbar spine shows increased T2 signals within the second and third lumbar vertebrae without signs of epithelial tumor.
+ms-train-1212 1 9 A CT scan of the neck was done to biopsy the lymph nodes.
+ms-train-1213 1 11 A CT scan of the neck was done to confirm the diagnosis.
+ms-train-1214 0 -1 NA
+ms-train-1215 1 7 Hemoglobin therapy is recommended.
+ms-train-1231 1 11 On mental status examination, he describes his mood as ""good.â€ Ibuprofen therapy was recommended for 6 months.
+ms-train-1256 1 1 The patient's antibiotic was switched to intravenous vancomycin after blood cultures grew gram-negative bacilli identified as Cardiobacterium hominis.
+ms-train-1257 1 2 The patient's antibiotic was switched to intravenous vancomycin.
+ms-train-1258 1 8 Antigen testing was done to further evaluate.
+ms-train-1276 1 5 Intravenous morphine therapy is required.
+ms-train-1277 1 8 Intravenous iodine therapy is required.
+ms-train-1300 1 5 A branch of the facial artery was ligated with improvement in the patient's condition.
+ms-train-1319 0 -1 NA
+ms-train-1320 1 4 The physician informs the local Department of Health.
+ms-train-1334 1 15 Intraarticular calcitonin therapy was given to the patient based on lab and xray findings.
+ms-train-1335 0 -1 NA
+ms-train-1347 1 12 Chest x-ray was ordered.
+ms-train-1375 0 -1 NA
+ms-train-1378 1 13 X-ray of the knee is obtained.
+ms-train-1379 1 12 An arthroscopic of the knee was scheduled after x-ray is resulted.
+ms-train-1382 1 11 Disclosed the diagnosis to the patient.
+ms-train-1393 1 10 Acetaminophen was applied.
+ms-train-1394 0 -1 NA
+ms-train-1405 1 7 Ibuprofen and acetaminophen are administered to the patient.
+ms-train-1424 1 3 Emergency surgery was performed with craniotomy and hematoma evacuation on the day of admission.
+ms-train-1425 1 3 Emergency surgery was performed with craniotomy and hematoma evacuation on the day of admission.
+ms-train-1426 1 19 A CT scan of the abdomen was scheduled.
+ms-train-1427 1 12 Ultrasonography of the thigh was scheduled.
+ms-train-1450 1 12 After placing the patient in an airborne infection isolation room, rifampin, streptomycin, and ethambutol were administered for 6 months.
+ms-train-1453 0 -1 NA
+ms-train-1454 0 -1 NA
+ms-train-1465 1 19 A CT scan of the brain is ordered.
+ms-train-1466 0 -1 NA
+ms-train-1473 1 2 A urine-protein-to-creatinine ratio was done to further evaluate.
+ms-train-1476 1 7 A CT smear was recommended.
+ms-train-1477 1 6 Reassurance was provided after a Pap smear showed a high-grade squamous intraepithelial lesion.
+ms-train-1495 1 12 An MRI scan of the brain shows signs of an evolving cerebral infarction on the patient's left side.
+ms-train-1506 0 -1 NA
+ms-train-1528 1 9 Patient is given ibuprofen and ice packs for her arm.
+ms-train-1555 1 11 CT scan of the abdomen and pelvis were obtained.
+ms-train-1556 1 24 Echocardiography was obtained.
+ms-train-1565 1 6 Based on labs, she was scheduled for a contrast-enhanced abdominal CT scan.
+ms-train-1566 0 -1 NA
+ms-train-1573 0 -1 NA
+ms-train-1574 1 16 Oxygen therapy was started.
+ms-train-1575 1 11 Patient was scheduled to have hymenotomy to further evaluate.
+ms-train-1576 1 9 Based on the following ultrasound, the patient will be monitored to further evaluate.
+ms-train-1628 1 8 An ultrasound of the brain was ordered for further evaluation.
+ms-train-1629 1 6 GnRH stimulation test was ordered for further evaluation after imaging and labs revealed the following.
+ms-train-1639 0 -1 NA
+ms-train-1640 1 14 Patient is started on physical therapy.
+ms-train-1645 1 25 A urinalysis shows a decreased pH. Emergency pyloromyotomy was performed.
+ms-train-1646 1 12 After reviewing labs, IV 0.9% NaCl and replacement electrolytes was given.
+ms-train-1647 1 11 Antibiotic therapy is recommended.
+ms-train-1648 1 19 Hepatitis B vaccine is recommended.
+ms-train-1734 1 11 Patient was prescribed a course of topical amoxicillin-clavulanate.
+ms-train-1735 1 10 Patient was prescribed a course of topical ceftriaxone based on exam findings.
+ms-train-1738 0 -1 NA
+ms-train-1739 1 11 Based on the following exam, lab, and xray findings, hydromorphone therapy will be slowly reduced.
+ms-train-1744 1 8 Patient was prescribed metronidazole after you checked the patient's serum calcium level, which was 15.3 mg/dL.
+ms-train-1745 1 8 You check the patient's serum calcium level, which is found to be 15.3 mg/dL. Patient was started on intravenous sodium bicarbonate.
+ms-train-1748 1 12 Amoxicillin was administered.
+ms-train-1760 0 -1 NA
+ms-train-1761 1 27 Amitriptyline was prescribed.
+ms-train-1776 1 3 Propranolol is prescribed.
+ms-train-1777 1 5 Propranolol is prescribed.
+ms-train-1782 1 7 Prednisone and ampicillin are initiated.
+ms-train-1783 1 6 Propranolol is initiated after a chest x-ray shows increased lung lucency bilaterally and flattening of the diaphragm.
+ms-train-1784 1 7 The physician decides to discontinue his current medication with methadone.
+ms-train-1799 0 -1 NA
+ms-train-1800 1 3 Treatment with retinoic acid is initiated after fundoscopic examination showed subretinal fluid and small hemorrhage with grayish-green discoloration in the macular area in the left eye, and multiple drusen in the right eye with retinal pigment epithelial changes.
+ms-train-1805 1 8 Acyclovir was prescribed.
+ms-train-1806 1 9 Valproate was prescribed.
+ms-train-1816 1 8 Plasma therapy was administered to rapidly reverse this patient's coagulopathy.
+ms-train-1817 1 7 After reviewing labs, cyclovir was administered to rapidly reverse this patient's coagulopathy.
+ms-train-1819 1 4 After reviewing labs and biopsy results, abacavir was prescribed to the patient.
+ms-train-1820 1 6 Abacavir was prescribed to the patient.
+ms-train-1821 1 6 Epinephrine is prescribed.
+ms-train-1822 1 4 Epinephrine is prescribed.
+ms-train-1839 1 14 Patient is prescribed metronidazole.
+ms-train-1840 1 7 Patient is prescribed metronidazole after serum studies show:
+ms-train-1851 1 15 Patient was treated with ibuprofen.
+ms-train-1852 0 -1 NA
+ms-train-1853 1 8 Acyclovir was prescribed to the patient.
+ms-train-1854 1 7 Patient was prescribed ibuprofen therapy after exam was unremarkable.
+ms-train-1855 1 10 Patient was prescribed acetaminophen therapy.
+ms-train-1863 1 7 Acetaminophen was prescribed to the patient.
+ms-train-1864 1 3 Based on exam, ibuprofen was prescribed to the patient.
+ms-train-1870 1 9 Patient advised to avoid cyclophosphamide.
+ms-train-1900 0 -1 NA
+ms-train-1901 1 10 Patient was started on azithromycin.
+ms-train-1917 1 18 Fluticasone was prescribed to the patient.
+ms-train-1918 1 16 Based on the following findings, azithromycin was prescribed to the patient.
+ms-train-1940 1 2 Analgesic therapy with an opioid drug is begun.
+ms-train-1941 1 3 On further questioning, the patient reports that he has been smoking opium at home to help him ""deal with the depression and pain.â€ Prozac was administered.
+ms-train-1944 1 3 Propranolol is prescribed.
+ms-train-1945 1 4 Propranolol is prescribed.
+ms-train-1950 1 4 Valproate was administered.
+ms-train-1974 1 4 Administered ceftriaxone was administered.
+ms-train-1975 1 5 Acyclovir was administered.
+ms-train-1984 1 2 Patient is prescribed risperidone.
+ms-train-1991 1 8 A thoracic angioplasty was performed.
+ms-train-2007 1 7 Oral ceftriaxone was prescribed for the patient and her partner.
+ms-train-2008 1 6 Oral ceftriaxone was prescribed for the patient after microscopic viewing of the discharge showed pseudohyphae and white blood cells.
+ms-train-2011 1 11 Acetaminophen was prescribed.
+ms-train-2012 1 10 Fenofibrate was prescribed.
+ms-train-2015 1 19 Transfusion of immunoglobulin was performed.
+ms-train-2016 1 9 Epinephrine was started after the following labs.
+ms-train-2019 1 11 Acyclovir was prescribed to the patient.
+ms-train-2044 1 4 Patient is scheduled for an open reduction and internal fixation with a compression plate after radiographs revealed a non-displaced fracture of the middle third of the clavicle.
+ms-train-2045 1 5 Radiographs reveal a non-displaced fracture of the middle third of the clavicle.
+ms-train-2059 1 4 Ceftriaxone is applied over her right forearm.
+ms-train-2060 1 6 Excision and grafting is performed.
+ms-train-2071 1 11 Glucose infusion is required.
+ms-train-2072 1 10 Oral morphine therapy is required.
+ms-train-2077 1 3 Patient is started on metronidazole after the paracentesis demonstrated serum ascites albumen gradient of 1.3 g/dL, and the ascitic fluid polymorphonuclear cell count was 280 cells/mm3.
+ms-train-2078 1 4 Patient is started on metronidazole.
+ms-train-2098 1 9 Patient was prescribed metronidazole for long term treatment of her symptoms.
+ms-train-2099 1 7 After doing an ECG and labs, the patient was prescribed metronidazole for long term treatment of her symptoms.
+ms-train-2100 1 10 Patient is prescribed methadone after an ECG shows sinus rhythm and a QT interval corrected for heart rate (QTc) of 470 milliseconds.
+ms-train-2101 1 11 Patient is prescribed ibuprofen.
+ms-train-2106 1 5 Patient is prescribed ceftriaxone.
+ms-train-2107 1 4 Patient is prescribed azithromycin after microscopy of an adhesive tape applied to the perianal region shows multiple ova.
+ms-train-2112 1 5 Patient will be treated with topical amoxicillin-clavulanic acid for 10 days based on exam findings.
+ms-train-2113 1 7 Patient will be treated with intravenous ceftriaxone for 6 weeks.
+ms-train-2114 1 9 Intraocular pressure testing is indicated.
+ms-train-2115 1 8 Acyclovir is indicated.
+ms-train-2138 1 12 Patient was prescribed metronidazole.
+ms-train-2152 0 -1 NA
+ms-train-2159 1 5 Reassurance was provided.
+ms-train-2160 1 4 Patient is given a referral for cognitive behavioral therapy.
+ms-train-2164 1 5 Hormone replacement therapy with estrogen and progesterone is given to the patient for symptomatic relief.
+ms-train-2165 1 4 Patient is started on hormone replacement therapy with estrogen alone after expressing she is desiring of a medication to control her symptoms.
