@@ -61,7 +61,8 @@ def _sentence_metrics(eval_pred):
 
 def train_error_classifier(train_sent_df, dev_sent_df, model_name=DETECTOR_NAME, output_dir="outputs/detector",
                            epochs=3, lr=2e-5, batch_size=16, eval_batch_size=64, seed=SEED):
-    """Afina el detector sobre la tabla de oraciones. Devuelve (trainer, tokenizer)."""
+    """Afina el detector sobre la tabla de oraciones. Al final carga la época con menor pérdida en dev.
+    Devuelve (trainer, tokenizer)."""
     tokenizer = load_detector_tokenizer(model_name)
     model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 
@@ -73,7 +74,8 @@ def train_error_classifier(train_sent_df, dev_sent_df, model_name=DETECTOR_NAME,
 
     args = TrainingArguments(output_dir=output_dir, num_train_epochs=epochs, learning_rate=lr,
                              per_device_train_batch_size=batch_size, per_device_eval_batch_size=eval_batch_size,
-                             eval_strategy="epoch", save_strategy="no", logging_steps=100,
+                             eval_strategy="epoch", save_strategy="epoch", save_total_limit=1,
+                             load_best_model_at_end=True, metric_for_best_model="eval_loss", greater_is_better=False, logging_steps=100,
                              fp16=torch.cuda.is_available(), report_to="none", seed=seed)
     trainer = WeightedTrainer(model=model, args=args, train_dataset=preparar(train_sent_df),
                               eval_dataset=preparar(dev_sent_df), processing_class=tokenizer,

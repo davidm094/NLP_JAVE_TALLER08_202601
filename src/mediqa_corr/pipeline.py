@@ -1,6 +1,7 @@
 """Pipeline completo: detector + corrector sobre cada texto, archivo de envío y orquestación del experimento."""
 import json
 import os
+import shutil
 import random
 import re
 import time
@@ -105,6 +106,9 @@ def run_experiment(data_path, out_dir="results", cfg=None, quick=False, bertscor
         eval_batch_size=cfg.det_eval_batch_size, seed=cfg.seed)
     detector = det_trainer.model
     res["detector_log"] = [h for h in det_trainer.state.log_history if "eval_loss" in h]
+    res["detector_mejor"] = {"checkpoint": os.path.basename(det_trainer.state.best_model_checkpoint or ""),
+                             "loss_dev": det_trainer.state.best_metric}
+    shutil.rmtree(os.path.join(out_dir, "_detector"), ignore_errors=True)
     threshold = choose_threshold(_scores_por_texto(dev_df, detector, det_tok), dev_df["Error Flag"])
     res["umbral"] = threshold
 
@@ -126,6 +130,9 @@ def run_experiment(data_path, out_dir="results", cfg=None, quick=False, bertscor
         batch_size=cfg.cor_batch_size, eval_batch_size=cfg.cor_eval_batch_size, seed=cfg.seed)
     corrector = cor_trainer.model
     res["corrector_log"] = [h for h in cor_trainer.state.log_history if "eval_loss" in h]
+    res["corrector_mejor"] = {"checkpoint": os.path.basename(cor_trainer.state.best_model_checkpoint or ""),
+                              "loss_dev": cor_trainer.state.best_metric}
+    shutil.rmtree(os.path.join(out_dir, "_corrector"), ignore_errors=True)
 
     ver = test_df[test_df["Error Flag"] == 1]
     preds = [generate_correction(build_correction_source(s, t), corrector, cor_tok, num_beams=cfg.num_beams, fallback=s)

@@ -33,7 +33,8 @@ def tokenize_for_seq2seq(batch, tokenizer, max_input=MAX_LEN_SOURCE, max_target=
 
 def train_corrector(train_pairs, dev_pairs, model_name=CORRECTOR_NAME, output_dir="outputs/corrector",
                     epochs=6, lr=1e-4, batch_size=8, eval_batch_size=16, seed=SEED):
-    """Afina el corrector. Sin fp16: T5 desborda en media precisión. Devuelve (trainer, tokenizer)."""
+    """Afina el corrector. Sin fp16: T5 desborda en media precisión. Al final carga la época con
+    menor pérdida en dev. Devuelve (trainer, tokenizer)."""
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
@@ -43,7 +44,8 @@ def train_corrector(train_pairs, dev_pairs, model_name=CORRECTOR_NAME, output_di
 
     args = Seq2SeqTrainingArguments(output_dir=output_dir, num_train_epochs=epochs, learning_rate=lr,
                                     per_device_train_batch_size=batch_size, per_device_eval_batch_size=eval_batch_size,
-                                    eval_strategy="epoch", save_strategy="no", logging_steps=50,
+                                    eval_strategy="epoch", save_strategy="epoch", save_total_limit=1,
+                             load_best_model_at_end=True, metric_for_best_model="eval_loss", greater_is_better=False, logging_steps=50,
                                     report_to="none", seed=seed)
     trainer = Seq2SeqTrainer(model=model, args=args, train_dataset=preparar(train_pairs),
                              eval_dataset=preparar(dev_pairs), processing_class=tokenizer,
