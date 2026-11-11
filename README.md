@@ -32,7 +32,7 @@ Decisiones clave:
 - **Cada oración se clasifica junto con la nota completa** (`[CLS] oración [SEP] nota [SEP]`, 384 tokens): el error solo se ve en contexto.
 - **Pesos de clase** (≈ 0,52 / 11,3): solo el 4,4 % de las oraciones son erróneas.
 - **División por caso, no por texto**: el MS tiene casi todos los casos en dos versiones (correcta y con error). Se agrupan por similitud TF-IDF (> 0,7) y se parte con `StratifiedGroupKFold`.
-- **Umbral elegido en dev, resultados en test** (test no se usa para ninguna decisión).
+- **Dev elige el umbral y la época; resultados en test** (test no se usa para ninguna decisión). Cada modelo se queda con la época de menor pérdida en dev.
 - **Métricas como el script oficial**: paquete `rouge`, BERTScore reescalado y recortado a [0, 1]. Sin BLEURT.
 
 ## Cómo correrlo
@@ -49,21 +49,23 @@ python scripts/leak_check.py  --data data/MEDIQA-CORR-2024-MS-TrainingData.csv  
 
 O abre [`notebooks/taller8_mediqa_corr.ipynb`](notebooks/taller8_mediqa_corr.ipynb) en Colab con GPU: llama las mismas funciones paso a paso.
 
-La corrida completa en una RTX 3090 tarda unos 14 minutos. `run_pipeline.py` guarda `predicciones_test.csv`, `predicciones_test.txt` (formato de envío oficial) y `metricas_test.json`.
+La corrida completa en una RTX 3090 tarda unos 13 minutos. `run_pipeline.py` guarda `predicciones_test.csv`, `predicciones_test.txt` (formato de envío oficial) y `metricas_test.json`.
 
 ## Resultados (test, 312 notas)
 
-Corrida completa en una RTX 3090: [`notebooks/ejecucion_rtx3090.ipynb`](notebooks/ejecucion_rtx3090.ipynb), métricas en [`results/metricas_test.json`](results/metricas_test.json).
+Corrida completa con `scripts/run_pipeline.py` en una RTX 3090 (commit `a5dc480`, 12,8 min): métricas en [`results/metricas_test.json`](results/metricas_test.json), log en [`results/run_rtx3090.log`](results/run_rtx3090.log). Épocas elegidas en dev: detector 2 de 3 (pérdida 0,227), corrector 3 de 6 (pérdida 1,309). Umbral elegido en dev: 0,65.
+
+El notebook [`notebooks/ejecucion_rtx3090.ipynb`](notebooks/ejecucion_rtx3090.ipynb) es una corrida anterior que usaba la última época; sus números difieren en menos de 1,5 puntos.
 
 | Subtarea | Modelo | Piso (sin modelo) |
 |---|---|---|
-| A · exactitud | 54,2 % | 55,8 % (siempre "error") |
-| B · exactitud | **53,5 %** | 44,2 % (nunca "error") |
-| C con la oración real · ROUGE-1 / BERTScore | 0,567 / 0,639 | 0,600 / 0,673 (copiar la oración) |
-| C en cadena · ROUGE-1 / BERTScore (149 pares) | 0,562 / 0,638 | — |
-| Composite (sin BLEURT) | 0,351 | 0,442 (nunca "error") |
+| A · exactitud | 54,8 % | 55,8 % (siempre "error") |
+| B · exactitud | **53,2 %** | 44,2 % (nunca "error") |
+| C con la oración real · ROUGE-1 / BERTScore | 0,562 / 0,633 | 0,600 / 0,673 (copiar la oración) |
+| C en cadena · ROUGE-1 / BERTScore (155 pares) | 0,552 / 0,628 | — |
+| Composite (sin BLEURT) | 0,344 | 0,442 (nunca "error") |
 
-**Lectura:** el detector localiza la oración errónea en 147 de 149 notas con error que marca (98,7 %), pero también marca error en 118 de 138 notas correctas. Aprendió *dónde* está la respuesta del caso, no *si* es correcta: le falta conocimiento médico. El corrector cambia la entidad correcta, pero por respuestas frecuentes del entrenamiento (*S. pneumoniae*, metronidazol, ceftriaxona). Es coherente con MEDEC, donde Phi-3 (7B) apenas supera el piso de A, y con WangLab, que necesitó recuperar la pregunta de MedQA y GPT-4.
+**Lectura:** el detector localiza la oración errónea en 150 de 155 notas con error que marca (96,8 %), pero también marca error en 122 de 138 notas correctas. Aprendió *dónde* está la respuesta del caso, no *si* es correcta: le falta conocimiento médico. El corrector cambia la entidad correcta, pero por respuestas frecuentes del entrenamiento (*S. pneumoniae*, metronidazol, ceftriaxona). Es coherente con MEDEC, donde Phi-3 (7B) apenas supera el piso de A, y con WangLab, que necesitó recuperar la pregunta de MedQA y GPT-4.
 
 ### Fuga de datos medida
 
